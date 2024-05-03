@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+  }
+  
+  html {
+    min-height: 100%;
+    box-sizing: border-box;
+    font-size: 10px;
+  }
+  
+  body {
+    background-image:url("https://github.com/rhorton03/Test/assets/168568047/6de593fb-efa6-4481-ac29-22ddcc651d4a");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+img {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  height: 100;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+  h1, h2, h3, ul, li, p, iframe {
+    font-family: "News Cycle", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+  }
+
+  h3 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+  ul, li {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  p {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+  
+  .site-wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10rem 2rem;
+  }
+  
+  section {
+    margin-bottom: 10rem;
+    padding: 5rem;
+    background: white;
+    border-radius: 10px;
+  }
